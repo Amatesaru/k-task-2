@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/image"
+            android:src="@drawable/orange"
+            android:layout_margin="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/Oranges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oranges"
+                android:textColor="@color/colorAccent"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rich in vitamin C"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:paddingTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/image2"
+                android:src="@drawable/icecream"
+                android:layout_margin="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/Ice_cream"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ice cream"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:id="@+id/Descrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perfect for a cold day"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:id="@+id/imag"
+                        android:src="@drawable/peanutbutter"
+                        android:layout_margin="3dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:id="@+id/Peanut_butter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Peanut Butter"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp" />
+
+                        <TextView
+                            android:id="@+id/Des"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Yummy delight!"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="90dp"
+                                android:layout_height="90dp"
+                                android:id="@+id/imagg"
+                                android:src="@drawable/clothpegs"
+                                android:layout_margin="3dp"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="4dp"
+                                android:orientation="vertical"
+                                android:gravity="center">
+
+
+                                <TextView
+                                    android:id="@+id/Cloth_pegs"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Cloth Pegs"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="22sp"
+                                    android:textStyle="bold"
+                                    android:paddingLeft="5dp"
+                                    android:paddingTop="10dp" />
+
+                                <TextView
+                                    android:id="@+id/Dees"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Keeps your cloths in place"
+                                    android:textColor="@color/colorAccent"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    android:paddingLeft="5dp"
+                                    android:paddingTop="10dp" />
+
+
+
+
+                            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
